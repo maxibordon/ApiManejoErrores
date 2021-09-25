@@ -1,0 +1,25 @@
+{
+  "Errores": [
+    {
+      "codigo": "ERAA563",
+      "descripcion": "No fue posible procesar tu solicitud. Por favor, intenta más tarde.",
+      "httpstatuscode": 500
+    },
+    {
+      "codigo": "ERAA500",
+      "descripcion": "No fue posible procesar tu solicitud. Por favor, intenta más tarde.",
+      "httpstatuscode": 500
+    },
+    {
+      "codigo": "ERAA502",
+      "descripcion": "Usuario o contraseña invalida, inténtelo nuevamente.",
+      "httpstatuscode": 500
+    },
+    {
+      "codigo": "200",
+      "descripcion": "Ejecucion exitosa",
+      "httpstatuscode": 200
+    }
+
+  ]
+}
