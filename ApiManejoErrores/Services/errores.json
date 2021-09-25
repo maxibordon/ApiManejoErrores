@@ -14,12 +14,8 @@
       "codigo": "ERAA502",
       "descripcion": "Usuario o contraseña invalida, inténtelo nuevamente.",
       "httpstatuscode": 500
-    },
-    {
-      "codigo": "200",
-      "descripcion": "Ejecucion exitosa",
-      "httpstatuscode": 200
     }
+
 
   ]
 }

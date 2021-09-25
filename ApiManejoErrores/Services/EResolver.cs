@@ -32,14 +32,19 @@ namespace ApiManejoErrores.Services
         }
         public static Error GetStatusCode(ECode codigo)
         {
-            Error error = GetError(codigo.code);
-            if (error==null)
+            Error error = null;
+            if (codigo.code=="200")
+            {
+                error = new Error();
+                error.httpstatuscode = 200;
+                error.descripcion = "Ejecucion exitosa";
+            }
+            else
             {
                 error = GetError(codigo.analyticsCode);
             }
             return error;
-        }
-
+        }      
 
     }
 }

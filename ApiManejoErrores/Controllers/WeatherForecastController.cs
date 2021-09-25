@@ -28,7 +28,7 @@ namespace ApiManejoErrores.Controllers
         private ECode CallService()
         {
             ECode code = new ECode();
-            code.code = "400";
+            code.code = "200";
             code.analyticsCode = "ERAA563";
             return code;
         }
